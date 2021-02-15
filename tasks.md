@@ -1,10 +1,10 @@
 x - img (css prop) 
-O - coloring 
-O - css grid
-O - font-family
+X - coloring 
+X - css grid
+X - font-family
+X - icons
 O - <u> text
 O - display, position
-O - icons
 O - responsive bs grid
 O - v4.5.3 
 O - text align(s)

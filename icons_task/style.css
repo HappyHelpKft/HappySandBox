@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'fontawesome';
+    src: url("fontawesome-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa{
+    cursor: pointer;
+    font-family: 'fontawesome';
+}
+
+.fa-glass::before{content: "\f000";}
+.fa-address-book-o::before{content: "\f2ba";}
+
+body{
+    font-family: 'fontawesome';
+}
+
+.kolbas::before{
+    content: "másod kolbász";
+    color: red;
+}
+
+/* css counter */
+body {
+    counter-reset: section;
+  }
+  
+  h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+  }
+
+
+
