@@ -1,0 +1,22 @@
+section{
+    font-size: 2rem;
+    padding: 0 15px;
+    margin: 1rem;
+    text-align: center;
+    border: 5px solid;
+}
+section > div span h6{
+    margin: 0.5rem 1rem;
+}
+section#block_1 div span h6{
+    color: red;
+    text-align: left;
+}
+section#block_2 div span h6{
+    color: green;
+    text-align: center;
+}
+section#block_3 div span h6{
+    color: blue;
+    text-align: right;
+}

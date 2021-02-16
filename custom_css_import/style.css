@@ -1,0 +1,17 @@
+/* Include box style sheet example */
+@import "box.css"; /* Using a string */
+
+/* responsive style sheet example */
+@import "responsive.css" screen and (max-width: 768px);
+
+div{
+    margin: 3rem 0;
+}
+
+.style-css{
+    border: 5px solid red;
+}
+
+.responsive-css{
+    visibility: hidden;
+}
