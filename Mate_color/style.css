@@ -1,0 +1,12 @@
+:root{
+
+    --o: rgb(253, 117, 5);
+    --px: 300px;
+}
+
+.coloring{
+
+    width: var(--px);
+    height: var(--px);
+    background-color: var(--o);
+}

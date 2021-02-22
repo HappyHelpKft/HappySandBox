@@ -27,7 +27,7 @@ body {
     counter-reset: section;
   }
   
-  h2::before {
+  h2::after {
     counter-increment: section;
     content: "Section " counter(section) ": ";
   }

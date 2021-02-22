@@ -1,0 +1,28 @@
+.item1 { grid-area: menu; }
+.item2 { grid-area: left; }
+.item3 { grid-area: mid; }
+.item4 { grid-area: right; }
+.item5 { grid-area: text; }
+
+
+.grid-container{
+
+    display: grid;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    grid-template-areas:
+      'menu menu menu menu menu menu'
+      'left left mid mid right right'
+      'text text text text text text';
+    grid-gap: 40px;
+    background-color: rgb(253, 117, 5);
+    padding: 20px;
+}
+
+.grid-container > div {
+
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+}

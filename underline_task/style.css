@@ -1,0 +1,15 @@
+
+p {
+
+    font-size: 250%;
+    color: olive;
+   border-bottom: 6px solid olive;
+   padding-bottom: 1px;
+
+}
+
+.under {
+
+    height: 100%;
+    width: 9.5rem;
+}

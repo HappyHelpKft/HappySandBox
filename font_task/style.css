@@ -1,6 +1,14 @@
-@font-face {
+/*@font-face {
     font-family: 'RobotoRegular';
     src: url("Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+
+    font-family: 'BungeeOutlineRegular';
+    src: url("BungeeOutline-Regular.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -8,7 +16,7 @@
 body{
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     /* font-family: Times new roman; */
-    /* font-family: 'RobotoRegular'; */
+    font-family: 'BungeeOutlineRegular';
     /* font-family: 'Architects Daughter', cursive; */
     font-size: 5rem;
 }

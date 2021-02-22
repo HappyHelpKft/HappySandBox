@@ -1,0 +1,20 @@
+
+@import "box.css";
+
+
+@import "responsive.css" screen and (max-width: 770px);
+
+div{
+
+   margin: 3rem 0;
+}
+
+.piros{
+
+    border: 3px solid red;
+}
+
+.responsive{
+
+    visibility: hidden;
+}
